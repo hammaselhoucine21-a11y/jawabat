@@ -3,6 +3,6 @@
 // the secret link code, nothing else). Leave them empty for demo mode, where
 // answers stay on the device and nothing is sent.
 window.ZQ_CONFIG = {
-  url: '', // https://<project>.supabase.co
-  key: '', // sb_publishable_... (or the legacy anon key)
+  url: 'https://dgnietltapbvmlkfsift.supabase.co',
+  key: 'sb_publishable_zyYmZu1r8BwiDxXHPvF1Nw_aPWi9VkR',
 };

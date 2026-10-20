@@ -15,7 +15,7 @@
   const SELFTEST = LIVE && params.get('selftest') === '1';
   const OWNER = LIVE ? TOKEN : 'demo';
   const STORE = 'zq1:' + (LIVE ? TOKEN.slice(0, 8) : 'demo');
-  const API = String(CFG.url || '').replace(/\/+$/, '');
+  const API = String(CFG.url || '').replace(/\/+$/, '').replace(/\/rest\/v1$/, '');
   const CLIENT = String(navigator.userAgent || '').slice(0, 200);
   const MAX_REC = 15 * 60;
   const MAX_FILE = 25 * 1024 * 1024;
